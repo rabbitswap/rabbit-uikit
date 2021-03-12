@@ -1,5 +1,5 @@
 {
-  "name": "@rabbitswap-libs/uikit",
+  "name": "@rabbitswap/uikit",
   "version": "0.1.0",
   "description": "Set of UI components for rabbitswap projects",
   "main": "dist/index.cjs.js",
