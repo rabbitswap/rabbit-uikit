@@ -111,6 +111,7 @@ const Menu: React.FC<NavProps> = ({
   // Find the home link if provided
   const homeLink = links.find((link) => link.label === "Home");
 
+  // @ts-ignore
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
@@ -143,7 +144,7 @@ const Menu: React.FC<NavProps> = ({
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}
         </Inner>
-        <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} role="presentation" />
+        <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} />
       </BodyWrapper>
     </Wrapper>
   );
