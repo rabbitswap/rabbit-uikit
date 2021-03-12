@@ -2,9 +2,9 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#8CBF46",
-  primaryBright: "#8CBF46",
-  primaryDark: "#8CBF46",
+  primary: "#df8350",
+  primaryBright: "#ffb37d",
+  primaryDark: "#a95525",
   secondary: "#D3362A",
   success: "#31D0AA",
   warning: "#FFB237",
@@ -23,9 +23,9 @@ export const lightColors: Colors = {
   invertedContrast: "#FFFFFF",
   input: "#eeeaf4",
   tertiary: "#EFF4F5",
-  text: "#8CBF46",
+  text: "#000000",
   textDisabled: "#BDC2C4",
-  textSubtle: "#8CBF46",
+  textSubtle: "#000000",
   borderColor: "#524B63",
   card: "#FFFFFF",
   gradients: {
@@ -44,9 +44,9 @@ export const darkColors: Colors = {
   input: "#483f5a",
   primaryDark: "#0098A1",
   tertiary: "#353547",
-  text: "#8CBF46",
+  text: "#FFFFFF",
   textDisabled: "#666171",
-  textSubtle: "#8CBF46",
+  textSubtle: "#FFFFFF",
   borderColor: "#524B63",
   card: "#27262c",
   gradients: {
